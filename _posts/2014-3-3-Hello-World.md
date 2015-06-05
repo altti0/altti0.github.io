@@ -1,9 +1,9 @@
 ---
 layout: post
-title: You're up and running!
+title: 글을 수정해 봅시다.
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+글을 수정해 보고, 이미지를 첨부해 보자.
 
 ![이미지라고?](https://d13yacurqjgara.cloudfront.net/users/1960/screenshots/2093099/roo_1x.jpg)
 
