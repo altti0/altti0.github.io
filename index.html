@@ -15,12 +15,39 @@
   <![endif]-->
 
   <style>
+  a:link {text-decoration: none; color: #ffffff;}
+  a:visited {text-decoration: none; color: #ffffff;}
+  a:active {text-decoration: none; color: #ffcc00;}
+  a:hover {text-decoration: none; color: #ffcc00;}
+
   nav {
-    width: 400px; margin: 0 auto;
+    position: fixed;
+    width: 300px; margin: 0 0;
+    height: 1000px;
     background: black;
+  }
+  nav > ul {
+    font-family: 'Libre Baskerville','Hiragino Mincho Pro W3',serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    list-style: none;
+  }
+  /*113p. 후손선택자, 자손선택자*/
+
+  #title {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
 
   }
 
+  #image {
+    width: 1500px;
+    height: :1000px;
+  }
 
   </style>
 
@@ -29,20 +56,30 @@
 
 <body>
   <script src="js/scripts.js"></script>
-  <nav>
-    <ul>
-      <li>Collection<li>
-      <li>2side<li>
-      <li>cut<li>
-      <li>collage<li>
-      <li>dessin<li>
-      <li>Product<li>
-      <li>Concept<li>
-      <li>News<li>
-      <li>Stores<li>
-      <li>Contact<li> 
-    </ul>
-  </nav>
+  <header>
+   <nav>
+     <ul>
+       <li><a href="#">Collection</li>
+       <li><a href="#">2side</li>
+       <li><a href="#">cut</li>
+       <li><a href="#">collage</li>
+       <li><a href="#">dessin</li>
+       <li><a href="#">Product</li>
+       <li><a href="#">Concept</li>
+       <li><a href="#">News</li>
+       <li><a href="#">Stores</li>
+       <li><a href="#">Contact</li> 
+     </ul>
+   </nav>
+ </header>
+ <div id="content">
+  <div id="title">
+    MASAHIROMARUYAMA
+  </div>
+  <div id="image">
+    <img src="https://download.unsplash.com/photo-1429277096327-11ee3b761c93">
+  </div>
+ </div>
 
 
 
